@@ -1,0 +1,214 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Grayson Pike's Resume
+% Based on Deedy - One Page Two Column Resume
+% LaTeX Template by Debarghya Das
+% (https://github.com/deedydas/Deedy-Resume)
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+
+
+\documentclass[]{resume}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+\footer
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\DeclareRobustCommand{\github}{%
+  \begingroup\normalfont
+  \includegraphics[height=10pt]{github.png}%
+  \endgroup
+}
+
+
+\namesection{}{Grayson Pike}{
+\href{mailto:graysonpike@gmail.com}{graysonpike@gmail.com}  |  (210) 284-7966  |  \github{} GitHub: Grayson112233\\
+\urlstyle{same}\url{http://www.graysonpike.com/}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University of Texas}
+\subsection{at Austin}
+\sectionsep
+
+
+\descript{BS in Computer Science}
+\location{Expected Jun 2021 | Austin, TX}
+Conc. in Cyber Security \\
+College of Natural Science \\
+\location{ Cum. GPA: 3.31 }
+\sectionsep
+
+\vspace{8pt}
+\subsection{Johnson H.S.}
+\location{Grad. May 2017 |  San Antonio, Texas}
+Graduated in Top 5th Percentile
+\sectionsep
+\vspace{20pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Programming}
+
+\subsection{Very Experienced With}
+\begin{tabular}{lll}
+\textbullet{} Python & \textbullet{} C & \textbullet{} C++ \\
+\textbullet{} Java & \textbullet{} Git & \textbullet{} Bash \\
+\textbullet{} Django & \textbullet{} HTML/CSS & \textbullet{} Linux \\
+\end{tabular}
+
+\sectionsep
+\subsection{Familiar With}
+\begin{tabular}{lll}
+\textbullet{} JavaScript & \textbullet{} Arduino \\
+\textbullet{} UEFI Firmware & \textbullet{} Angular \\
+\textbullet{} \LaTeX & \textbullet{} Intellij IDEA
+\end{tabular}
+
+\sectionsep
+\vspace{20pt}
+
+
+\section{Leadership}
+\subsection{Previous Responsibilies}
+\textbullet{} Agile/Scrum Development Cycle \\
+\textbullet{} Collaborative Code Reviews \\ 
+\textbullet{} Coordinating Between Teams
+\vspace{20pt}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+CS 314 - Data Structures \\
+CS 311 - Discrete Math for CS \\
+CS 429 - Computer Architecture \\
+CS 109 - Ethics in Computer Science \\
+\sectionsep
+\vspace{20pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+\subsection{CompTIA Security+}
+\location{May 2017}
+Certified for vendor-neutral network security consulting. \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Blackbaud Inc.}
+\descript{| Software Development Intern }
+\location{\textit{Summer of 2018}}
+\vspace{12pt}
+\begin{tightemize}
+\item Developed \riddhi{Java Spring Microservices} and \riddhi{Angular SPAs} in \riddhi{JavaScript} for an web application used by thousands of non-profits around the globe
+\item Leveraged \riddhi{Microsoft Azure} for event ingestion and \riddhi{MongoDB} storage to build scalable services to handle millions of events per second
+\item Contributed as a member of an \riddhi{Agile team}, participating in Sprint planning and \riddhi{pair programming}
+\end{tightemize}
+\sectionsep
+\vspace{10pt}
+
+\runsubsection{Def-Logix Inc.}
+\descript{| Cyber Security Software Development Intern }
+\location{3 Internships - Summers of 2015-17}
+\vspace{4pt}
+\begin{tightemize}\item Worked in a team of full-time employees to create a Firmware Security Application and Vulnerability Management System
+\item Contributed to frequent project design meetings and code reviews
+\item Led a team of developers using \riddhi{Agile} project management
+\item Created several \riddhi{C and C++} programs to perform security tasks on workstations with the \riddhi{Windows API}
+\item Used \riddhi{Python} with the \riddhi{Django} framework to create a \riddhi{RESTful API} for a firmware-based client
+\item Designed and implemented a monitoring interface employing \riddhi{React}
+\end{tightemize}
+\sectionsep
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Facial Recognition with IoT Devices}
+\descript{| For Use in Home Automation }
+\location{Jan 2018}
+\begin{tightemize}
+\item Leveraged the \riddhi{OpenCV} library with \riddhi{C++} to recognize faces on a \riddhi{Raspberry Pi}
+\item Used facial recognition to unlock doors, customize preferences, and other home automation tasks.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Research with Natural Language Processing}
+\descript{| Available on \github{} GitHub }
+\location{Oct 2017 - Present}
+\begin{tightemize}
+\item Wrote natural language processing scripts in \riddhi{Python} with the \riddhi{NLTK} library.
+\item Programmatically identified differences in translations of Homer's Iliad.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Open Source SDL2 Game Engine}
+\descript{| Available on \github{} GitHub }
+\location{Jul 2017}
+\begin{tightemize}
+\item Built a custom game engine in \riddhi{C++} using the \riddhi{SDL2} graphics framework.
+\item Implemented collision detection, input handling, audio mixing, and event queue.
+\item Created a demonstrative 2-player space combat game with physics.
+\end{tightemize}
+\sectionsep
+
+% Goal: Replace this?
+\runsubsection{EKG Machine}
+\descript{| 1\textsuperscript{st} Place at SOHacks Hackathon }
+\location{Jul 2015}
+\begin{tightemize}
+\item Used an \riddhi{Arduino} to create a cost-effective EKG machine.
+\item Wrote pattern recognition software in \riddhi{Javascript} to identify irregularities in heart monitoring data.
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+\end{document}
